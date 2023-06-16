@@ -1,0 +1,15 @@
+Go benchmarks must be titled;BenchmarkRepeat
+Go benchmarks take;a b *testing.B
+Go run benchmark command;go test -bench="."
+Go arrays have fixed/dynamic capacity;fixed
+Go init array syntax;[N]type{vals} or [...]type{vals}
+Go can you pass in a [5]int into a fn that takes []int;no
+Go how to iterate through array;range
+Go range syntax;for index, value := range arr
+Go how to ignore returned values;use _
+Go array vs slice;slice doesn't encode size
+Go check coverage with;go test -cover
+Go how to take multiple arguments;use (nums ...[]int)
+Go init slice with size;make ([]int, length)
+Go how to slice;slice[low:high]
+Go can you slice negative index;no
