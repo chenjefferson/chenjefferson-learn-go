@@ -1,0 +1,21 @@
+Go how to init func;func main() {}
+code related to our problem is (vs side effect code);domain code
+Go return type syntax;func Hello() string
+Go tests must take;t *testing.T
+Go what happens if no module for tests;will complain about no main module
+Go how to error a test and print;t.Errorf
+Go how to pull up documentation for Golang locally;godoc -http :8000
+Go when function with multiple strings, how declare short;func FuncName(a, b, c string)
+Go can you overload functions;no
+Go make a subtest with;t.Run(desc, func)
+Go test helpers how do you declare;take t testing.TB,call t.Helper()
+Go test helpers must take;t testing.TB
+Go test helper TB is it a pointer;no
+Go test what must helpers call;t.Helper()
+Go what does calling t.Helper() do;line number in function rather than inside helper
+Go how to throw error;panic and recover
+Go when to use panic;only in exceptional circumstances
+Go what to use instead of panic;return nil, etc.
+Go how to name return values;func run(s string) (q string)
+Go int zero value;0
+Go string zero value;""

@@ -1,6 +1,6 @@
 # Learning Go
 
-I use Go for work, but I want to do a deep dive.
+I use Go for work, but I want to do a deep dive. `.csv`s are Anki cards.
 ## Study Plan
 
 - [ ] Learn Go with Tests
