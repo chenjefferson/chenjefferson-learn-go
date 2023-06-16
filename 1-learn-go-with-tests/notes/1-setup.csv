@@ -19,3 +19,6 @@ Go what to use instead of panic;return nil, etc.
 Go how to name return values;func run(s string) (q string)
 Go int zero value;0
 Go string zero value;""
+Go view the tests being run with;go test -v
+Go examples go in the;test file
+Go why examples;run with code, so less likely to go out of date

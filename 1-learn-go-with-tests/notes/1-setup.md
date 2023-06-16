@@ -39,3 +39,7 @@ These will help you reduce context switching.
 ## Hello, World
 
 See the Anki cards in the CSV. I'm missing some as I had some Anki cards already.
+
+## Integers
+
+See above. you can document your code at `pkg.go.dev` if you share your code!
