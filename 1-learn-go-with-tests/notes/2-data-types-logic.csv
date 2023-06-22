@@ -19,3 +19,16 @@ Go how to make a struct;type Shape struct { Perimeter() float64 }
 Go how to make method on struct;func (r Rectangle) Perimeter() float64 { return 2 * (r.Width + r.Height) }
 Go how to associate interface with struct;duck typed, so just implement what you need
 Go anonymous struct syntax; struct { name string }{name: "foo"}
+Go how to construct a new struct;Wallet{}
+Go if a symbol is lowercase, it is private ___;outside the package it's defined in
+Go how to get address of symbol;&wallet.Balance
+Go how to pass-by-reference;(w *Wallet) in function args
+Go do you have to explicitly dereference;no
+Go how to explicitly dereference;(*w).balance
+Go initializing non-struct type ex. type Bitcoin int;Bitcoin(10) or var b Bitcoin = 10
+Go how to print while using struct's String() method;use %s
+Go if you try to access nil while running it is a;runtime panic
+Go map syntax; map[string][string]{"test": "this is a test", "server": "this is a server"}
+Go passing in maps to functions, do you need to dereference;no, as they're already just refs
+Go initializing maps; map[string]string {} OR make(map[string]string)
+Go error interface; func(e ErrType) Error() string
