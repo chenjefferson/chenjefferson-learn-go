@@ -13,3 +13,9 @@ Go how to take multiple arguments;use (nums ...[]int)
 Go init slice with size;make ([]int, length)
 Go how to slice;slice[low:high]
 Go can you slice negative index;no
+Go does adding a struct rerun tests;no
+Go how to make an interface;type Shape interface { Perimeter() float64 }
+Go how to make a struct;type Shape struct { Perimeter() float64 }
+Go how to make method on struct;func (r Rectangle) Perimeter() float64 { return 2 * (r.Width + r.Height) }
+Go how to associate interface with struct;duck typed, so just implement what you need
+Go anonymous struct syntax; struct { name string }{name: "foo"}

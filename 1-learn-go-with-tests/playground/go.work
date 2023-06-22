@@ -1,0 +1,7 @@
+go 1.20
+
+use .
+
+use ./1-setup
+
+use ./2-data-types-logic
